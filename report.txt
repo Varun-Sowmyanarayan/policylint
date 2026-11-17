@@ -1,0 +1,18 @@
+Created 12 fake IAM policies
+
+=== PolicyLint report ===
+LABEL   POLICY                  REASON
+RISKY   AdminEverything         allows EVERY action
+RISKY   DevHelperTemp           allows EVERY action
+RISKY   IAMFullAccessAll        allows ALL iam actions on EVERY resource
+RISKY   S3FullAccessAll         allows ALL s3 actions on EVERY resource
+OK      BlockDeleteBucket       -
+OK      CloudWatchPutMetrics    -
+OK      DynamoReadUsers         -
+OK      LambdaBasicLogs         -
+OK      ReadOnlyS3Reports       -
+OK      S3WriteUploads          -
+OK      SNSPublishAlerts        -
+OK      SQSSendOnly             -
+
+8 policies OK, 4 policies RISKY
